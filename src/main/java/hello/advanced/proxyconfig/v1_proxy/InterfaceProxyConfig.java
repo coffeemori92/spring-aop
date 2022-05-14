@@ -6,9 +6,8 @@ import hello.advanced.proxyconfig.v1_proxy.interface_proxy.OrderRepositoryInterf
 import hello.advanced.proxyconfig.v1_proxy.interface_proxy.OrderServiceInterfaceProxy;
 import hello.advanced.trace.logtrace.LogTrace;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class InterfaceProxyConfig {
 
     @Bean("orderControllerProxyV1")
