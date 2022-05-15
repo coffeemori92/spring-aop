@@ -3,11 +3,10 @@ package hello.advanced.proxyconfig.v2_dynamicproxy;
 import hello.advanced.proxyapp.v1.*;
 import hello.advanced.trace.logtrace.LogTrace;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import java.lang.reflect.Proxy;
 
-@Configuration
+//@Configuration
 public class DynamicProxyFilterConfig {
 
     private static final String[] PATTERNS = {"request*", "order*", "save*"};
