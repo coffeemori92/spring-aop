@@ -2,8 +2,9 @@ package hello.advanced.proxyconfig;
 
 import hello.advanced.proxyapp.v1.*;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
-//@Configuration
+@Configuration
 public class AppV1Config {
 
     @Bean("orderControllerProxyV1")
